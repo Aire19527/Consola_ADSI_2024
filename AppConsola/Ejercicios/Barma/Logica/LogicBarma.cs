@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace AppConsola.Ejercicios.Barma.Logica
 {
@@ -96,9 +95,9 @@ namespace AppConsola.Ejercicios.Barma.Logica
 
             foreach (var item in baldePrecios)
             {
-                if(item.Balde=="A")
+                if (item.Balde == "A")
                 {
-                    int valor=item.PrecioTotal*10;
+                    int valor = item.PrecioTotal * 10;
                     Console.WriteLine($"El precio de 10 baldes tipo: {item.Balde} es de: {valor}");
                 }
 
@@ -114,7 +113,7 @@ namespace AppConsola.Ejercicios.Barma.Logica
                     Console.WriteLine($"El precio de 5 baldes tipo: {item.Balde} es de: {valor}");
                 }
             }
-        
+
         }
 
     }
